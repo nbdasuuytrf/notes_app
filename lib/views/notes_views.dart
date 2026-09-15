@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class PageFirstScreen extends StatelessWidget {
-  const PageFirstScreen({super.key});
+class NotesViews extends StatelessWidget {
+  const NotesViews({super.key});
 
   @override
   Widget build(BuildContext context) {

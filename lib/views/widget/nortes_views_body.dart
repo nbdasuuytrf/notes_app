@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:noteapp/views/widget/coustom_app_bar.dart';
+import 'package:noteapp/views/widget/custom_item_nodes.dart';
 
 class NotesViesBody extends StatelessWidget {
   const NotesViesBody({super.key});
@@ -8,7 +9,11 @@ class NotesViesBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 45),
-      child: const Column(children: [SizedBox(height: 16), CoustomAppbar()]),
+      child: const Column(
+        children: [SizedBox(height: 16), CoustomAppbar(), NotesItem()],
+      ),
     );
   }
 }
+
+

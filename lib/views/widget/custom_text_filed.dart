@@ -24,7 +24,7 @@ class CustomTextFiled extends StatelessWidget {
 
   OutlineInputBorder bulidBorder([Color]) {
     return OutlineInputBorder(
-      borderRadius: BorderRadius.circular(16),
+       borderRadius: BorderRadius.circular(16),
       borderSide: BorderSide(color: Color ?? Colors.white),
     );
   }

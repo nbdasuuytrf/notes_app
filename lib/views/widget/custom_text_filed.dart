@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noteapp/constanse_color.dart';
+import 'package:noteapp/constanse.dart';
 
 class CustomTextFiled extends StatelessWidget {
   const CustomTextFiled({super.key, required this.hint, this.maxLines = 1,this.hintStyle});
